@@ -1,0 +1,5 @@
+Testy zostały napisane w języku Java z użyciem Selenium, aby zautomatyzować proces testowania aplikacji webowej. W celu uproszczenia kodu i zwiększenia elastyczności, wykorzystałam plik CSV do wczytywania danych wejściowych do formularzy. Dzięki temu mogłam przeprowadzić testy z różnymi zestawami danych, eliminując konieczność ręcznego ich wprowadzania. Testy były wykonywane w przeglądarce Chrome, a zautomatyzowane przypadki obejmowały 5 różnych scenariuszy.
+Do organizacji testów i raportowania wyników wykorzystałam Serenity BDD, co pozwoliło na łatwe zarządzanie testami, generowanie czytelnych raportów oraz lepsze śledzenie postępu testów w różnych scenariuszach. Serenity BDD umożliwiło także integrację z narzędziami do raportowania, co pomogło w monitorowaniu wyników testów w sposób bardziej przejrzysty.
+
+Napotkane problemy:
+Zakładając, że brak wypełnienia obowiązkowego pola powinien powodować wyświetlenie komunikatu błędu pod tym polem, wystąpił problem, w którym komunikaty błędów nie pojawiały się w wielu przypadkach. W rezultacie testy mogły nie przechodzić, ponieważ brak wyświetlonych komunikatów błędów wpływał na poprawność weryfikacji wyników testów.

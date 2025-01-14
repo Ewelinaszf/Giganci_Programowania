@@ -1,0 +1,5 @@
+parentName, emailAddress, mobilePhone, yearOfBirth, statuteAgreedInput, advertisementAgreedInput
+,,,,NO,NO
+Piotr,user#example.pl,200200200,2009,NO,NO
+Jan,jan@gmail.com,12345665,2002,NO,NO
+Artur,karolgiganci+fakedata80696@gmail.com,123456651,2005,YES,YES
