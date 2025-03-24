@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static Objects.CourseTypeObject.freeClasses;
+import static Objects.CourseTypeObject.freeClassesButton;
 import static Objects.StartPageObjects.*;
 
 
@@ -105,7 +105,7 @@ public class StartPage extends Hook {
         }
 
         if (isValidationSuccessful ) {
-            return actions.isElementVisible(freeClasses);
+            return actions.isElementVisible(freeClassesButton);
         }
 
         return false;
